@@ -14,6 +14,7 @@
 		088356BD1F132D66006E6B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088356BB1F132D66006E6B3E /* LaunchScreen.storyboard */; };
 		088356C81F132D66006E6B3E /* UIPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088356C71F132D66006E6B3E /* UIPageViewControllerTests.swift */; };
 		088356D31F132D66006E6B3E /* UIPageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088356D21F132D66006E6B3E /* UIPageViewControllerUITests.swift */; };
+		088356E11F132D99006E6B3E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088356E01F132D99006E6B3E /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		088356CE1F132D66006E6B3E /* UIPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		088356D21F132D66006E6B3E /* UIPageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageViewControllerUITests.swift; sourceTree = "<group>"; };
 		088356D41F132D66006E6B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088356E01F132D99006E6B3E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				088356B21F132D66006E6B3E /* AppDelegate.swift */,
 				088356B41F132D66006E6B3E /* ViewController.swift */,
 				088356B61F132D66006E6B3E /* Main.storyboard */,
+				088356E01F132D99006E6B3E /* RootViewController.swift */,
 				088356B91F132D66006E6B3E /* Assets.xcassets */,
 				088356BB1F132D66006E6B3E /* LaunchScreen.storyboard */,
 				088356BE1F132D66006E6B3E /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				088356B51F132D66006E6B3E /* ViewController.swift in Sources */,
 				088356B31F132D66006E6B3E /* AppDelegate.swift in Sources */,
+				088356E11F132D99006E6B3E /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
